@@ -23,6 +23,12 @@
 		52026CD32BDF505B009B8825 /* OctagonImageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */; };
 		52026CD52BDF5D24009B8825 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */; };
 		52026CD72BDF60C8009B8825 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CD62BDF60C8009B8825 /* MainView.swift */; };
+		52026CD92BDF7756009B8825 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CD82BDF7756009B8825 /* AnimalDetailView.swift */; };
+		52026CDB2BDF7CB0009B8825 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CDA2BDF7CB0009B8825 /* HeadingView.swift */; };
+		52026CDD2BDF7F64009B8825 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */; };
+		52026CDF2BDF829A009B8825 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CDE2BDF829A009B8825 /* InsetFactView.swift */; };
+		52026CE12BDF8B50009B8825 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CE02BDF8B50009B8825 /* InsetMapView.swift */; };
+		52026CE32BDF8E23009B8825 /* CLLocation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonImageFrame.swift; sourceTree = "<group>"; };
 		52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		52026CD62BDF60C8009B8825 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		52026CD82BDF7756009B8825 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		52026CDA2BDF7CB0009B8825 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		52026CDE2BDF829A009B8825 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		52026CE02BDF8B50009B8825 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +160,11 @@
 				52026CD02BDF44A1009B8825 /* AnimalListItemView.swift */,
 				52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */,
 				52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */,
+				52026CD82BDF7756009B8825 /* AnimalDetailView.swift */,
+				52026CDA2BDF7CB0009B8825 /* HeadingView.swift */,
+				52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */,
+				52026CDE2BDF829A009B8825 /* InsetFactView.swift */,
+				52026CE02BDF8B50009B8825 /* InsetMapView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -165,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				52026CCB2BDF39CA009B8825 /* Bundle+Ext.swift */,
+				52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -243,16 +261,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52026CDF2BDF829A009B8825 /* InsetFactView.swift in Sources */,
+				52026CD92BDF7756009B8825 /* AnimalDetailView.swift in Sources */,
 				52026CAC2BDF3285009B8825 /* ContentView.swift in Sources */,
+				52026CE32BDF8E23009B8825 /* CLLocation+Ext.swift in Sources */,
 				52026CCF2BDF43CE009B8825 /* AnimalModel.swift in Sources */,
 				52026CC62BDF37E9009B8825 /* CoverImageView.swift in Sources */,
 				52026CD72BDF60C8009B8825 /* MainView.swift in Sources */,
 				52026CD32BDF505B009B8825 /* OctagonImageFrame.swift in Sources */,
 				52026CCC2BDF39CA009B8825 /* Bundle+Ext.swift in Sources */,
+				52026CDB2BDF7CB0009B8825 /* HeadingView.swift in Sources */,
 				52026CAA2BDF3285009B8825 /* AnimaliaApp.swift in Sources */,
 				52026CC92BDF38F3009B8825 /* CoverImageModel.swift in Sources */,
+				52026CE12BDF8B50009B8825 /* InsetMapView.swift in Sources */,
 				52026CD12BDF44A1009B8825 /* AnimalListItemView.swift in Sources */,
 				52026CD52BDF5D24009B8825 /* AnimalGridItemView.swift in Sources */,
+				52026CDD2BDF7F64009B8825 /* InsetGalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
