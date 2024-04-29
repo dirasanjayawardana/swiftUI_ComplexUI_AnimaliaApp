@@ -15,6 +15,9 @@
 		52026CC02BDF3573009B8825 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 52026CBB2BDF3573009B8825 /* covers.json */; };
 		52026CC12BDF3573009B8825 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 52026CBC2BDF3573009B8825 /* locations.json */; };
 		52026CC22BDF3573009B8825 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 52026CBD2BDF3573009B8825 /* videos.json */; };
+		52026CC62BDF37E9009B8825 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CC52BDF37E9009B8825 /* CoverImageView.swift */; };
+		52026CC92BDF38F3009B8825 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CC82BDF38F3009B8825 /* CoverImageModel.swift */; };
+		52026CCC2BDF39CA009B8825 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CCB2BDF39CA009B8825 /* Bundle+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		52026CBB2BDF3573009B8825 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		52026CBC2BDF3573009B8825 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		52026CBD2BDF3573009B8825 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		52026CC52BDF37E9009B8825 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		52026CC82BDF38F3009B8825 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		52026CCB2BDF39CA009B8825 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,10 @@
 		52026CA82BDF3285009B8825 /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
+				52026CCA2BDF3986009B8825 /* Extensions */,
+				52026CC32BDF379D009B8825 /* Modules */,
 				52026CB72BDF3299009B8825 /* App */,
-				52026CB82BDF32A4009B8825 /* View */,
+				52026CB82BDF32A4009B8825 /* Main */,
 				52026CB92BDF32AC009B8825 /* Resources */,
 				52026CAF2BDF3286009B8825 /* Preview Content */,
 			);
@@ -83,12 +91,12 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		52026CB82BDF32A4009B8825 /* View */ = {
+		52026CB82BDF32A4009B8825 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				52026CAB2BDF3285009B8825 /* ContentView.swift */,
 			);
-			path = View;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		52026CB92BDF32AC009B8825 /* Resources */ = {
@@ -109,6 +117,39 @@
 				52026CBD2BDF3573009B8825 /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		52026CC32BDF379D009B8825 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				52026CC72BDF3843009B8825 /* Models */,
+				52026CC42BDF37B1009B8825 /* Screen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		52026CC42BDF37B1009B8825 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				52026CC52BDF37E9009B8825 /* CoverImageView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		52026CC72BDF3843009B8825 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52026CC82BDF38F3009B8825 /* CoverImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52026CCA2BDF3986009B8825 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52026CCB2BDF39CA009B8825 /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52026CAC2BDF3285009B8825 /* ContentView.swift in Sources */,
+				52026CC62BDF37E9009B8825 /* CoverImageView.swift in Sources */,
+				52026CCC2BDF39CA009B8825 /* Bundle+Ext.swift in Sources */,
 				52026CAA2BDF3285009B8825 /* AnimaliaApp.swift in Sources */,
+				52026CC92BDF38F3009B8825 /* CoverImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
