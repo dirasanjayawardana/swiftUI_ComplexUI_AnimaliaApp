@@ -30,6 +30,21 @@
 		52026CE12BDF8B50009B8825 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CE02BDF8B50009B8825 /* InsetMapView.swift */; };
 		52026CE32BDF8E23009B8825 /* CLLocation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */; };
 		52026CE52BDF946F009B8825 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CE42BDF946F009B8825 /* ExternalWebLinkView.swift */; };
+		52CDEE2E2BE08F7B00372FEB /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDEE2D2BE08F7B00372FEB /* VideoModel.swift */; };
+		52CDEE312BE0907000372FEB /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDEE302BE0907000372FEB /* VideoPlayerHelper.swift */; };
+		52CDEE362BE0928E00372FEB /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDEE352BE0928E00372FEB /* VideoPlayerView.swift */; };
+		52CDEE422BE0934D00372FEB /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE372BE0934D00372FEB /* cheetah.mp4 */; };
+		52CDEE432BE0934D00372FEB /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE382BE0934D00372FEB /* elephant.mp4 */; };
+		52CDEE442BE0934D00372FEB /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE392BE0934D00372FEB /* giraffe.mp4 */; };
+		52CDEE452BE0934D00372FEB /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3A2BE0934D00372FEB /* gorilla.mp4 */; };
+		52CDEE462BE0934D00372FEB /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3B2BE0934D00372FEB /* hippo.mp4 */; };
+		52CDEE472BE0934D00372FEB /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3C2BE0934D00372FEB /* lion.mp4 */; };
+		52CDEE482BE0934D00372FEB /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3D2BE0934D00372FEB /* lioness.mp4 */; };
+		52CDEE492BE0934D00372FEB /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3E2BE0934D00372FEB /* ostrich.mp4 */; };
+		52CDEE4A2BE0934D00372FEB /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE3F2BE0934D00372FEB /* rhino.mp4 */; };
+		52CDEE4B2BE0934D00372FEB /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52CDEE402BE0934D00372FEB /* zebra.mp4 */; };
+		52CDEE4D2BE095BD00372FEB /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDEE4C2BE095BD00372FEB /* VideoListItemView.swift */; };
+		52CDEE4F2BE098E700372FEB /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDEE4E2BE098E700372FEB /* WatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +73,21 @@
 		52026CE02BDF8B50009B8825 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Ext.swift"; sourceTree = "<group>"; };
 		52026CE42BDF946F009B8825 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		52CDEE2D2BE08F7B00372FEB /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		52CDEE302BE0907000372FEB /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		52CDEE352BE0928E00372FEB /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		52CDEE372BE0934D00372FEB /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		52CDEE382BE0934D00372FEB /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		52CDEE392BE0934D00372FEB /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		52CDEE3A2BE0934D00372FEB /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		52CDEE3B2BE0934D00372FEB /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
+		52CDEE3C2BE0934D00372FEB /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		52CDEE3D2BE0934D00372FEB /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
+		52CDEE3E2BE0934D00372FEB /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
+		52CDEE3F2BE0934D00372FEB /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
+		52CDEE402BE0934D00372FEB /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		52CDEE4C2BE095BD00372FEB /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		52CDEE4E2BE098E700372FEB /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +120,14 @@
 		52026CA82BDF3285009B8825 /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
-				52026CCD2BDF3FED009B8825 /* Info.plist */,
-				52026CCA2BDF3986009B8825 /* Extensions */,
-				52026CC32BDF379D009B8825 /* Modules */,
 				52026CB72BDF3299009B8825 /* App */,
+				52026CCA2BDF3986009B8825 /* Extensions */,
+				52CDEE2F2BE0901C00372FEB /* Helper */,
+				52026CCD2BDF3FED009B8825 /* Info.plist */,
 				52026CB82BDF32A4009B8825 /* Main */,
-				52026CB92BDF32AC009B8825 /* Resources */,
+				52026CC32BDF379D009B8825 /* Modules */,
 				52026CAF2BDF3286009B8825 /* Preview Content */,
+				52026CB92BDF32AC009B8825 /* Resources */,
 			);
 			path = Animalia;
 			sourceTree = "<group>";
@@ -122,6 +153,7 @@
 			children = (
 				52026CAB2BDF3285009B8825 /* BrowseView.swift */,
 				52026CD62BDF60C8009B8825 /* MainView.swift */,
+				52CDEE4E2BE098E700372FEB /* WatchView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -129,6 +161,7 @@
 		52026CB92BDF32AC009B8825 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52CDEE412BE0934D00372FEB /* Video */,
 				52026CBE2BDF3573009B8825 /* Data */,
 				52026CAD2BDF3286009B8825 /* Assets.xcassets */,
 			);
@@ -149,6 +182,7 @@
 		52026CC32BDF379D009B8825 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				52CDEE2C2BE08E8500372FEB /* ViewModels */,
 				52026CC72BDF3843009B8825 /* Models */,
 				52026CC42BDF37B1009B8825 /* Screen */,
 			);
@@ -158,11 +192,8 @@
 		52026CC42BDF37B1009B8825 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				52CDEE322BE0920700372FEB /* Watch */,
 				52CDEE2B2BE08D9E00372FEB /* Browse */,
-				52026CD02BDF44A1009B8825 /* AnimalListItemView.swift */,
-				52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */,
-				52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */,
-				52026CD82BDF7756009B8825 /* AnimalDetailView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -172,6 +203,7 @@
 			children = (
 				52026CC82BDF38F3009B8825 /* CoverImageModel.swift */,
 				52026CCE2BDF43CE009B8825 /* AnimalModel.swift */,
+				52CDEE2D2BE08F7B00372FEB /* VideoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +220,10 @@
 		52CDEE2B2BE08D9E00372FEB /* Browse */ = {
 			isa = PBXGroup;
 			children = (
+				52026CD02BDF44A1009B8825 /* AnimalListItemView.swift */,
+				52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */,
+				52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */,
+				52026CD82BDF7756009B8825 /* AnimalDetailView.swift */,
 				52026CC52BDF37E9009B8825 /* CoverImageView.swift */,
 				52026CDA2BDF7CB0009B8825 /* HeadingView.swift */,
 				52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */,
@@ -196,6 +232,47 @@
 				52026CE42BDF946F009B8825 /* ExternalWebLinkView.swift */,
 			);
 			path = Browse;
+			sourceTree = "<group>";
+		};
+		52CDEE2C2BE08E8500372FEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52CDEE2F2BE0901C00372FEB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52CDEE302BE0907000372FEB /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		52CDEE322BE0920700372FEB /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				52CDEE352BE0928E00372FEB /* VideoPlayerView.swift */,
+				52CDEE4C2BE095BD00372FEB /* VideoListItemView.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		52CDEE412BE0934D00372FEB /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				52CDEE372BE0934D00372FEB /* cheetah.mp4 */,
+				52CDEE382BE0934D00372FEB /* elephant.mp4 */,
+				52CDEE392BE0934D00372FEB /* giraffe.mp4 */,
+				52CDEE3A2BE0934D00372FEB /* gorilla.mp4 */,
+				52CDEE3B2BE0934D00372FEB /* hippo.mp4 */,
+				52CDEE3C2BE0934D00372FEB /* lion.mp4 */,
+				52CDEE3D2BE0934D00372FEB /* lioness.mp4 */,
+				52CDEE3E2BE0934D00372FEB /* ostrich.mp4 */,
+				52CDEE3F2BE0934D00372FEB /* rhino.mp4 */,
+				52CDEE402BE0934D00372FEB /* zebra.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +334,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				52026CBF2BDF3573009B8825 /* animals.json in Resources */,
+				52CDEE472BE0934D00372FEB /* lion.mp4 in Resources */,
+				52CDEE462BE0934D00372FEB /* hippo.mp4 in Resources */,
+				52CDEE4A2BE0934D00372FEB /* rhino.mp4 in Resources */,
 				52026CC02BDF3573009B8825 /* covers.json in Resources */,
+				52CDEE482BE0934D00372FEB /* lioness.mp4 in Resources */,
+				52CDEE452BE0934D00372FEB /* gorilla.mp4 in Resources */,
 				52026CC12BDF3573009B8825 /* locations.json in Resources */,
 				52026CB12BDF3286009B8825 /* Preview Assets.xcassets in Resources */,
+				52CDEE492BE0934D00372FEB /* ostrich.mp4 in Resources */,
+				52CDEE432BE0934D00372FEB /* elephant.mp4 in Resources */,
 				52026CAE2BDF3286009B8825 /* Assets.xcassets in Resources */,
+				52CDEE4B2BE0934D00372FEB /* zebra.mp4 in Resources */,
 				52026CC22BDF3573009B8825 /* videos.json in Resources */,
+				52CDEE422BE0934D00372FEB /* cheetah.mp4 in Resources */,
+				52CDEE442BE0934D00372FEB /* giraffe.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,18 +364,23 @@
 				52026CAC2BDF3285009B8825 /* BrowseView.swift in Sources */,
 				52026CE32BDF8E23009B8825 /* CLLocation+Ext.swift in Sources */,
 				52026CCF2BDF43CE009B8825 /* AnimalModel.swift in Sources */,
+				52CDEE312BE0907000372FEB /* VideoPlayerHelper.swift in Sources */,
 				52026CC62BDF37E9009B8825 /* CoverImageView.swift in Sources */,
 				52026CD72BDF60C8009B8825 /* MainView.swift in Sources */,
 				52026CD32BDF505B009B8825 /* OctagonImageFrame.swift in Sources */,
 				52026CCC2BDF39CA009B8825 /* Bundle+Ext.swift in Sources */,
 				52026CDB2BDF7CB0009B8825 /* HeadingView.swift in Sources */,
 				52026CAA2BDF3285009B8825 /* AnimaliaApp.swift in Sources */,
+				52CDEE4D2BE095BD00372FEB /* VideoListItemView.swift in Sources */,
 				52026CE52BDF946F009B8825 /* ExternalWebLinkView.swift in Sources */,
+				52CDEE4F2BE098E700372FEB /* WatchView.swift in Sources */,
 				52026CC92BDF38F3009B8825 /* CoverImageModel.swift in Sources */,
+				52CDEE2E2BE08F7B00372FEB /* VideoModel.swift in Sources */,
 				52026CE12BDF8B50009B8825 /* InsetMapView.swift in Sources */,
 				52026CD12BDF44A1009B8825 /* AnimalListItemView.swift in Sources */,
 				52026CD52BDF5D24009B8825 /* AnimalGridItemView.swift in Sources */,
 				52026CDD2BDF7F64009B8825 /* InsetGalleryView.swift in Sources */,
+				52CDEE362BE0928E00372FEB /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
