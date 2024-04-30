@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52026CAA2BDF3285009B8825 /* AnimaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CA92BDF3285009B8825 /* AnimaliaApp.swift */; };
-		52026CAC2BDF3285009B8825 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CAB2BDF3285009B8825 /* ContentView.swift */; };
+		52026CAC2BDF3285009B8825 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52026CAB2BDF3285009B8825 /* BrowseView.swift */; };
 		52026CAE2BDF3286009B8825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52026CAD2BDF3286009B8825 /* Assets.xcassets */; };
 		52026CB12BDF3286009B8825 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52026CB02BDF3286009B8825 /* Preview Assets.xcassets */; };
 		52026CBF2BDF3573009B8825 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 52026CBA2BDF3573009B8825 /* animals.json */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		52026CA62BDF3285009B8825 /* Animalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52026CA92BDF3285009B8825 /* AnimaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaliaApp.swift; sourceTree = "<group>"; };
-		52026CAB2BDF3285009B8825 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52026CAB2BDF3285009B8825 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		52026CAD2BDF3286009B8825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52026CB02BDF3286009B8825 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52026CBA2BDF3573009B8825 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		52026CB82BDF32A4009B8825 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				52026CAB2BDF3285009B8825 /* ContentView.swift */,
+				52026CAB2BDF3285009B8825 /* BrowseView.swift */,
 				52026CD62BDF60C8009B8825 /* MainView.swift */,
 			);
 			path = Main;
@@ -158,16 +158,11 @@
 		52026CC42BDF37B1009B8825 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				52026CC52BDF37E9009B8825 /* CoverImageView.swift */,
+				52CDEE2B2BE08D9E00372FEB /* Browse */,
 				52026CD02BDF44A1009B8825 /* AnimalListItemView.swift */,
 				52026CD22BDF505B009B8825 /* OctagonImageFrame.swift */,
 				52026CD42BDF5D24009B8825 /* AnimalGridItemView.swift */,
 				52026CD82BDF7756009B8825 /* AnimalDetailView.swift */,
-				52026CDA2BDF7CB0009B8825 /* HeadingView.swift */,
-				52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */,
-				52026CDE2BDF829A009B8825 /* InsetFactView.swift */,
-				52026CE02BDF8B50009B8825 /* InsetMapView.swift */,
-				52026CE42BDF946F009B8825 /* ExternalWebLinkView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -188,6 +183,19 @@
 				52026CE22BDF8E23009B8825 /* CLLocation+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52CDEE2B2BE08D9E00372FEB /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				52026CC52BDF37E9009B8825 /* CoverImageView.swift */,
+				52026CDA2BDF7CB0009B8825 /* HeadingView.swift */,
+				52026CDC2BDF7F64009B8825 /* InsetGalleryView.swift */,
+				52026CDE2BDF829A009B8825 /* InsetFactView.swift */,
+				52026CE02BDF8B50009B8825 /* InsetMapView.swift */,
+				52026CE42BDF946F009B8825 /* ExternalWebLinkView.swift */,
+			);
+			path = Browse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +274,7 @@
 			files = (
 				52026CDF2BDF829A009B8825 /* InsetFactView.swift in Sources */,
 				52026CD92BDF7756009B8825 /* AnimalDetailView.swift in Sources */,
-				52026CAC2BDF3285009B8825 /* ContentView.swift in Sources */,
+				52026CAC2BDF3285009B8825 /* BrowseView.swift in Sources */,
 				52026CE32BDF8E23009B8825 /* CLLocation+Ext.swift in Sources */,
 				52026CCF2BDF43CE009B8825 /* AnimalModel.swift in Sources */,
 				52026CC62BDF37E9009B8825 /* CoverImageView.swift in Sources */,
